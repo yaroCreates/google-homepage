@@ -11,28 +11,32 @@
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="#">Gmail</a></li>
-            <li><a href="#">Images</a></li>
-            <li><span class="material-icons">apps</span></li>
-        </ul>
-    </nav>
+    <ul class="navigation">
+        <li><a href="#">Gmail</a></li>
+        <li><a href="#">Images</a></li>
+        <li><span class="material-icons">apps</span></li>
+    </ul>
     <div class="main-container">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+        alt="Google.com" class="logo">
 
-        <div class="logo-container">
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-        alt="Google.com">
+        <form><br><br>
+            <div class="s-box">
+                <span id= "search-icon" class="material-icons">search</span>
+                <input type="text" class="s-input">
+                <span id= "mic-icon" class="material-icons">mic</span>
+                <input type="submit" value= "Google Search" class="s-btn">
+                <input type="submit" value="I'm Feeling Lucky" class="s-btn">
+            </div>
+
+        </form>
+        <div class="lang">
+            Google Offered in:
+            <a href="#">Idoma</a>
+            <a href="#">Tiv</a>
+            <a href="#">Igede</a>
+            <a href="#">Nigerian Pidgin</a>
         </div>
-        <div>
-
-            <form class= "form">
-                <div class='form-control'>
-                    <input type="text" class="text-field">
-                    <button>Google Search</button>
-                    <button>I'm Feeling Lucky</button>
-                </div>
-            </form>
         </div>
     </div>
     
